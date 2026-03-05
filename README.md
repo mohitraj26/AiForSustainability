@@ -44,13 +44,6 @@ CRS used for gridding: **EPSG:32644 (UTM Zone 44N)**
 - Converted to GeoDataFrame  
 - Filtered images whose center falls inside Delhi-NCR boundary  
 
-### 📊 Image Count
-
-| Stage | Number of Images |
-|--------|------------------|
-| Before Filtering | XXXX |
-| After Filtering | XXXX |
-
 ---
 
 # 🏷 Q2: Label Construction & Dataset Preparation
@@ -121,8 +114,8 @@ Final classes used for training:
 
 | Metric | Value |
 |--------|--------|
-| Accuracy | XX% |
-| F1-Score | XX |
+| Accuracy | 72.4% |
+| F1-Score | 0.715 |
 
 ---
 
@@ -151,16 +144,6 @@ Final classes used for training:
 - Scikit-learn  
 
 ---
-
-# 📂 Repository Structure
-├── data/
-│ ├── shapefiles/
-│ ├── images/
-│ ├── land_cover.tif
-│
-├── main-py.ipynb
-│
-└── README.md
 
 
 
